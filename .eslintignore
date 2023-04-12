@@ -1,0 +1,6 @@
+./nuxt.config.js
+.nuxt/
+.git/
+node_modules/
+.DS_Store
+.eslintcache

@@ -9,6 +9,9 @@
     "description": "Auto imported from components/Footer/Footer.vue"
   },
   "Header": {
-    "description": "Auto imported from components/Header/Header.vue"
+    "description": "Auto imported from components/Header/index.vue"
+  },
+  "CaseStudyCaseStudyList": {
+    "description": "Auto imported from components/CaseStudy/CaseStudyList/index.vue"
   }
 }

@@ -9,4 +9,5 @@ You can directly use them in pages and other components without the need to impo
 - `<NuxtLogo>` | `<nuxt-logo>` (components/NuxtLogo.vue)
 - `<Tutorial>` | `<tutorial>` (components/Tutorial.vue)
 - `<Footer>` | `<footer>` (components/Footer/Footer.vue)
-- `<Header>` | `<header>` (components/Header/Header.vue)
+- `<Header>` | `<header>` (components/Header/index.vue)
+- `<CaseStudyCaseStudyList>` | `<case-study-case-study-list>` (components/CaseStudy/CaseStudyList/index.vue)

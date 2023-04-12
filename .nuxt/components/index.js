@@ -1,7 +1,8 @@
-export { default as NuxtLogo } from '../../components/NuxtLogo.vue'
-export { default as Tutorial } from '../../components/Tutorial.vue'
-export { default as Footer } from '../../components/Footer/Footer.vue'
-export { default as Header } from '../../components/Header/Header.vue'
+export const NuxtLogo = () => import('../../components/NuxtLogo.vue' /* webpackChunkName: "components/nuxt-logo" */).then(c => wrapFunctional(c.default || c))
+export const Tutorial = () => import('../../components/Tutorial.vue' /* webpackChunkName: "components/tutorial" */).then(c => wrapFunctional(c.default || c))
+export const Footer = () => import('../../components/Footer/Footer.vue' /* webpackChunkName: "components/footer" */).then(c => wrapFunctional(c.default || c))
+export const Header = () => import('../../components/Header/index.vue' /* webpackChunkName: "components/header" */).then(c => wrapFunctional(c.default || c))
+export const CaseStudyCaseStudyList = () => import('../../components/CaseStudy/CaseStudyList/index.vue' /* webpackChunkName: "components/case-study-case-study-list" */).then(c => wrapFunctional(c.default || c))
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {
